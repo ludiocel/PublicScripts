@@ -1,3 +1,6 @@
+if not Drawing then
+    warn("Drawing library unsupported")
+end
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Player = Players.LocalPlayer
